@@ -10,7 +10,7 @@ const Services = () => {
 
     <div className="">
  
-    <h4 className="ml-[680px] text-center bg-primary h-22 pl-1 pr-1 items-center font-12 bg-purple rounded-full w-24 text-primary">SERVICES</h4>
+    <h4 className="mx-auto text-center bg-primary h-22 px-4 flex items-center text-sm bg-purple rounded-full w-24 text-primary">SERVICES</h4>
     <h2 className="mt-5 mb-5 text-darkGray font-bold
     font-inter text-2xl ">Our Support Services</h2>
     <h5 className="text-button2">Our mission is to provide high-quality and effective disability services, where every person we <br/>care for maters .</h5>
