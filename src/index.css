@@ -6,6 +6,82 @@ body{
   font-family: 'Inter', sans-serif;
 
 }
+
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.scroll-animation {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.ease-in-text {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.ease-in-button {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@media screen and (max-width: 640px) {
+  .mt-mobile {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .max-container {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #333;
+  color: #fff;
+  padding: 20px;
+  z-index: 999;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.popup.show {
+  display: block;
+}
+
+.popup-content {
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: bold;
+  transform: translateY(-50%);
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
