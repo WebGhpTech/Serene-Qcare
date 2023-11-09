@@ -28,9 +28,9 @@ const Hero = () => {
     <section className="w-full flex flex-col md:flex-row min-h-screen gap-10 max-container h-[768px] justify-center items-center">
       <div className="w-full md:w-1/2 relative flex flex-col justify-center items-start pl-20 pt-10 order-2 md:order-1">
         <h1 className="pl-7 mb-5 font-inter text-4xl font-bold max-sm:text-[72px] max-sm:leading-[82px]">
-          <span className="text-white">The wise <br />choice for</span>
+          <span className="text-white">The Wise <br />Choice for</span>
           <br />
-          <span className="text-primary">independency</span>
+          <span className="text-primary">Independency</span>
         </h1>
         <p className="pl-7 font-sm font-inter text-slate-gray-100 mb-10">
           We are a disability services provider that was established with the sole aim of offering support and always putting participants first.
