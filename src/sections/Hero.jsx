@@ -33,7 +33,7 @@ const Hero = () => {
         <h1 className="pl-7 mb-5 font-inter text-3xl md:text-[60px] md:leading-[68px] font-bold max-sm:text-[48px] max-sm:leading-[58px] max-sm:pl-9 max-sm:text-center ease-in-text">
           <span className="sm:mt-20 text-white">The wise <br />choice for</span>
           <br />
-          <span className="text-primary animated-text">independency</span>
+          <span className="text-primary animated-text">independence</span>
         </h1>
         <p className="pl-7 font-sm font-inter text-slate-gray-100 mb-10 max-sm:text-center max-sm:pr-20 ease-in-text">
           We are a disability services provider that was established with the sole aim of offering support and always putting participants first.
