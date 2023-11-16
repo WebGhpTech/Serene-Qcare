@@ -69,7 +69,7 @@ const WhoWeAre = () => {
           individuals with an impairment can thrive, succeed, and fully <br />
           participate in all aspects of life.
         </p>
-        <button className="xl:ml-8 mb-10 text-white bg-primary flex justify-center items-center gap-2 px-7 py-4 font-inter text-lg leading-none rounded scroll-animation">
+        <button className=" bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none xl:ml-8 mb-10 text-white bg-primary flex justify-center items-center gap-2 px-7 py-4 font-inter text-lg leading-none rounded scroll-animation">
           More About Us
         </button>
       </div>
