@@ -50,7 +50,7 @@ const WhoWeAre = () => {
         <img
           src={who3}
           width={270}
-          height={319}
+          height={355}
           className="animate-on-scroll"
           alt="Who 3"
         />
