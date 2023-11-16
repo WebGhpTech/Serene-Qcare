@@ -13,7 +13,7 @@ const StayInTouch = () => {
     <div className= "text-center max-container">
        
      <input className="w-72 border rounded-md px-2 py-2 textGray text-slate-gray" placeholder="Enter your email " type="text" name="search"/>
-     <button className="w-28 rounded-md pl-3 pr-3 ml-5 px-2 py-2 text-white font-inter bg-primary ">
+     <button className="bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none w-28 rounded-md pl-3 pr-3 ml-5 px-2 py-2 text-white font-inter bg-primary ">
         Subscribe
      </button>
     </div>
