@@ -1,28 +1,18 @@
-import {Footer, Hero, Services, StayInTouch, WhoWeAre} from "./sections"
-import Nav from "./components/Nav"
-import CookiePopup from "./components/CookiePopup"
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Nav from './components/Nav';
+import CookiePopup from './components/CookiePopup';
+import NavigationRoute from './components/NavigationRoute';
+
 const App = () => {
   return (
-    <main className="relative">
-      <Nav /> 
-      <section className="xl:padding-1 wide:padding-r padding-b bg-secondary">
-        <Hero />
-      </section>
-      <section className="p-4 md:p-8 bg-textGray">
-        <WhoWeAre />
-      </section>
-      <section className="p-4 md:p-8">
-        <Services />
-      </section>
-      <section className="p-4 md:p-8 bg-textGray">
-        <StayInTouch />
-      </section>
-      <section className="p-4 md:p-8 bg-secondary">
-        <Footer />
-      </section>
+    <Router>
+      <Nav />
+      <Routes>
+        <Route path="/*" element={<NavigationRoute />} />
+      </Routes>
       <CookiePopup />
-    </main>
-  )
-}
+    </Router>
+  );
+};
 
-export default App
+export default App;

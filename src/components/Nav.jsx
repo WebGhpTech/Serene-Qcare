@@ -1,6 +1,8 @@
 import { useState } from 'react';
-import headerLogo from "../assets/images/headerLogo.png";
-import { navLinks } from "../constants";
+import headerLogo from '../assets/images/headerLogo.png';
+import { navLinks } from '../constants';
+import { routes } from '../router';
+import { Link } from 'react-router-dom';
 
 const Nav = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -37,11 +39,9 @@ const Nav = () => {
                 X
               </button>
               <ul className="flex flex-col items-center justify-center h-full">
-                {navLinks.map((item) => (
-                  <li key={item.label}>
-                    <a href={item.href} className="font-inter leading-normal text-xl my-2">
-                      {item.label}
-                    </a>
+                {routes.map((route, index) => (
+                  <li key={index} className="font-inter leading-normal text-xl my-2" onClick={closeMenu}>
+                    <Link to={route.path}>{route.title}</Link>
                   </li>
                 ))}
               </ul>
@@ -51,16 +51,16 @@ const Nav = () => {
 
         {/* Menu items for larger screens */}
         <ul className="md:flex hidden justify-center items-center gap-7 ml-60 z-10">
-          {navLinks.map((item) => (
-            <li key={item.label}>
-              <a href={item.href} className="font-inter leading-normal text-blue text-sm">
-                {item.label}
-              </a>
+          {routes.map((route, index) => (
+            <li key={index} className="font-inter leading-normal text-blue text-sm">
+              <Link to={route.path}>{route.title}</Link>
             </li>
           ))}
         </ul>
 
-        <button className="bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none text-white font-medium rounded py-3 px-4 bg-primary mr-10 hidden lg:block z-10">Enquire Now</button>
+        <button className="bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none text-white font-medium rounded py-3 px-4 bg-primary mr-10 hidden lg:block z-10">
+          Enquire Now
+        </button>
       </nav>
     </header>
   );
