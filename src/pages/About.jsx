@@ -29,7 +29,7 @@ const About = () => {
    </div>
 <div className='bg-textGray h-screen'>
    <div className=' ml-[50px]  flex xl:justify-wrap items-center max-xl:flex-col-reverse gap-5 max-container max-sm:mt-60 h-[796] '>
-     <div className="gap-5 mb-5 md:ml-10  ">
+     <div className="gap-5  md:ml-10  ">
         <img
           src={who1}
           width={270}
@@ -56,8 +56,8 @@ const About = () => {
       <div className="flex">
         
         <div className='ml-20 '>
-           <h4 className='text-darkGray font-semibold text-4xl'>Welcome to our </h4>
-           <h1 className='text-primary text-7xl font-bold '><span>Disability Services <br/>Department</span></h1>
+           <h4 className='text-darkGray font-semibold text-3xl'>Welcome to our </h4>
+           <h1 className='text-primary text-4xl font-bold '><span>Disability Services <br/>Department</span></h1>
            <p className='text-secondary text-base mt-7 '>I have been a member of NDIS services for three years when I started my <br/> Nursing career. After graduation from I worked at a hospital setting <br/>
            around the area as an Enrolled nurse. Not too long after, I realised me <br/>
            and my husband both had the right skills and mindset to start our own <br/>
