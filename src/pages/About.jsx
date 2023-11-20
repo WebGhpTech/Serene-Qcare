@@ -56,8 +56,8 @@ const About = () => {
       <div className="flex">
         
         <div className='ml-20 '>
-           <h4 className='text-darkGray font-semibold text-4xl'>Welcome to our </h4>
-           <h1 className='text-primary text-7xl font-bold '><span>Disability Services <br/>Department</span></h1>
+           <h4 className='text-darkGray font-semibold text-3xl'>Welcome to our </h4>
+           <h1 className='text-primary text-4xl font-bold '><span>Disability Services <br/>Department</span></h1>
            <p className='text-secondary text-sm mt-7 '>I have been a member of NDIS services for three years when I started my <br/> Nursing career. After graduation from I worked at a hospital setting <br/>
            around the area as an Enrolled nurse. Not too long after, I realised me <br/>
            and my husband both had the right skills and mindset to start our own <br/>
