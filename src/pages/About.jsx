@@ -144,17 +144,7 @@ const About = () => {
            <div className='ml-20 mt-20'><img className='' src={ceo}/></div>
            
          </div>
-            <div className=' flex bg-textGray w-full h-[360px]'>
-               <div>
-               <h1 className='font-bold text-4xl pt-20 ml-[200px] mb-10'> <span className='text-darkGray'>Contact Us </span> <span className='text-primary'>Today</span></h1>
-               <p className='ml-[200px] text-button2 text-xl '>We encourage you to reach out to us for more information, questions, <br/>or assistance. Our dedicated team is here to support you on your<br/> journey towards success and inclusion.</p>
-               </div>
-
-               <div>
-               <button className='bg-primary rounded text-white text-medium text-lg px-6 py-5 ml-[250px] mt-[40%] w-48 '>Contact Us</button>
-               </div>
-            
-            </div>
+           
       
             <div id="footer" className="bg-secondary w-full "> 
             <div className="pt-20 w-full text-white font-normal h-[319px] text-center items-center justify-center max-container">
