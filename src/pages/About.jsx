@@ -86,7 +86,7 @@ const About = () => {
       <h1 className='text-white text-4xl font-bold text-center pt-10'>Our Values</h1>
        
       </div>
- 
+  
    <div className='gap-32 mt-10 items-center justify-center flex flex-wrap' >
    <div className="">
    <img 
@@ -131,11 +131,21 @@ const About = () => {
  </p>
      </div>
         </div>
-        
+         <div className=' flex bg-textGray w-full h-[360px]'>
+               <div>
+               <h1 className='font-bold text-4xl pt-20 ml-[200px] mb-10'> <span className='text-darkGray'>Contact Us </span> <span className='text-primary'>Today</span></h1>
+               <p className='ml-[200px] text-button2 text-xl '>We encourage you to reach out to us for more information, questions, <br/>or assistance. Our dedicated team is here to support you on your<br/> journey towards success and inclusion.</p>
+               </div>
+
+               <div>
+               <button className='bg-primary rounded text-white text-medium text-lg px-6 py-5 ml-[250px] mt-[40%] w-48 '>Contact Us</button>
+               </div>
+            
+            </div>
       
       </div>
       </div>
-        <div className=' flex h-[50px]'>
+        <div className=' flex h-[376px]'>
          <div >
          <h4 className="mt-10 ml-[200px] text-center bg-primary h-22 px-2.5 flex items-center text-md bg-purple rounded-full w-24 text-primary ">SERVICES</h4>
          <h3 className='ml-[200px] mt-5 text-3xl leading-normal font-bold'><span>We are a </span> <span className='text-primary'>dedicated team of <br/>professionals</span> <span>passionate about<br/> advocating for individuals with<br/> disabilities.</span></h3>
