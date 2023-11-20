@@ -28,7 +28,7 @@ const About = () => {
           </div>  
    </div>
 <div className='bg-textGray h-screen'>
-   <div className=' ml-[100px] mt-[80px] flex xl:justify-wrap items-center max-xl:flex-col-reverse gap-5 max-container max-sm:mt-60 h-[796px] '>
+   <div className=' ml-[50px] mt-[80px] flex xl:justify-wrap items-center max-xl:flex-col-reverse gap-5 max-container max-sm:mt-60 h-full '>
      <div className="gap-5 mb-5 md:ml-10  ">
         <img
           src={who1}
