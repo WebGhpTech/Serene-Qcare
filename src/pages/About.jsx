@@ -27,7 +27,7 @@ const About = () => {
           alt='about'/>
           </div>  
    </div>
-<div className='bg-textGray h-screen'>
+<div className='bg-textGray h-[796px]'>
    <div className=' ml-[100px] mt-[80px] flex xl:justify-wrap items-center max-xl:flex-col-reverse gap-5 max-container max-sm:mt-60 h-[796px] '>
      <div className="gap-5 mb-5 md:ml-10  ">
         <img
@@ -138,7 +138,7 @@ const About = () => {
         <div className=' flex h-[510px]'>
          <div >
          <h4 className="mt-10 ml-[200px] text-center bg-primary h-22 px-2.5 flex items-center text-md bg-purple rounded-full w-24 text-primary ">SERVICES</h4>
-         <h3 className='ml-[200px] mt-5 text-4xl leading-normal font-bold'><span>We are a </span> <span className='text-primary'>dedicated team of <br/>professionals</span> <span>passionate about<br/> advocating for individuals with<br/> disabilities.</span></h3>
+         <h3 className='ml-[200px] mt-5 text-3xl leading-normal font-bold'><span>We are a </span> <span className='text-primary'>dedicated team of <br/>professionals</span> <span>passionate about<br/> advocating for individuals with<br/> disabilities.</span></h3>
          <p className='ml-[200px] mt-5 mb-5 text-xl  text-button2 '>We are a dedicated team of professionals passionate about advocating for<br/> individuals with disabilities. Our staff members bring a wealth of expertise and<br/> experience in disability support services, ensuring that we provide the highest <br/>quality assistance to our community.</p>
          </div>
            <div className='ml-20 mt-20'><img className='' src={ceo}/></div>
