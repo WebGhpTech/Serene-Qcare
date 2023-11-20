@@ -28,7 +28,7 @@ const About = () => {
           </div>  
    </div>
 <div className='bg-textGray h-screen'>
-   <div className=' ml-[200px] mt-[80px] flex xl:justify-wrap items-center max-xl:flex-col-reverse gap-5 max-container max-sm:mt-60 h-[796px] '>
+   <div className=' ml-[100px] mt-[80px] flex xl:justify-wrap items-center max-xl:flex-col-reverse gap-5 max-container max-sm:mt-60 h-[796px] '>
      <div className="gap-5 mb-5 md:ml-10  ">
         <img
           src={who1}
@@ -139,7 +139,7 @@ const About = () => {
          <div >
          <h4 className="mt-10 ml-[200px] text-center bg-primary h-22 px-2.5 flex items-center text-md bg-purple rounded-full w-24 text-primary ">SERVICES</h4>
          <h3 className='ml-[200px] mt-5 text-4xl leading-normal font-bold'><span>We are a </span> <span className='text-primary'>dedicated team of <br/>professionals</span> <span>passionate about<br/> advocating for individuals with<br/> disabilities.</span></h3>
-         <p className='ml-[200px] mt-5 mb-5 text-xl  text-button2 tracking-wide'>We are a dedicated team of professionals passionate about advocating for<br/> individuals with disabilities. Our staff members bring a wealth of expertise and<br/> experience in disability support services, ensuring that we provide the highest <br/>quality assistance to our community.</p>
+         <p className='ml-[200px] mt-5 mb-5 text-xl  text-button2 '>We are a dedicated team of professionals passionate about advocating for<br/> individuals with disabilities. Our staff members bring a wealth of expertise and<br/> experience in disability support services, ensuring that we provide the highest <br/>quality assistance to our community.</p>
          </div>
            <div className='ml-20 mt-20'><img className='' src={ceo}/></div>
            
@@ -147,7 +147,7 @@ const About = () => {
             <div className=' flex bg-textGray w-full h-[360px]'>
                <div>
                <h1 className='font-bold text-4xl pt-20 ml-[200px] mb-10'> <span className='text-darkGray'>Contact Us </span> <span className='text-primary'>Today</span></h1>
-               <p className='ml-[200px] text-button2 text-xl tracking-wider'>We encourage you to reach out to us for more information, questions, <br/>or assistance. Our dedicated team is here to support you on your<br/> journey towards success and inclusion.</p>
+               <p className='ml-[200px] text-button2 text-xl '>We encourage you to reach out to us for more information, questions, <br/>or assistance. Our dedicated team is here to support you on your<br/> journey towards success and inclusion.</p>
                </div>
 
                <div>
