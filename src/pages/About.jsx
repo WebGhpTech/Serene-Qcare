@@ -58,7 +58,7 @@ const About = () => {
         <div className='ml-20 '>
            <h4 className='text-darkGray font-semibold text-3xl'>Welcome to our </h4>
            <h1 className='text-primary text-4xl font-bold '><span>Disability Services <br/>Department</span></h1>
-           <p className='text-secondary text-base mt-7 '>I have been a member of NDIS services for three years when I started my <br/> Nursing career. After graduation from I worked at a hospital setting <br/>
+           <p className='text-secondary text-sm mt-7 '>I have been a member of NDIS services for three years when I started my <br/> Nursing career. After graduation from I worked at a hospital setting <br/>
            around the area as an Enrolled nurse. Not too long after, I realised me <br/>
            and my husband both had the right skills and mindset to start our own <br/>
            little gig. We put our heart and passions together to create this<br/>
@@ -66,7 +66,7 @@ const About = () => {
             establishment, we have been at the forefront of advocating for <br/>
             individuals with disabilities and working towards creating an inclusive <br/>
             society. </p>
-           <p className='text-secondary text-base mt-5'>
+           <p className='text-secondary text-sm mt-5'>
             Our department is dedicated to providing support, resources, community<br/>
             nursing, activities of daily living community participation and transport to<br/>
              ensure equal opportunities for individuals of all abilities. We are <br/>
@@ -135,7 +135,7 @@ const About = () => {
       
       </div>
       </div>
-        <div className=' flex h-[510px]'>
+        <div className=' flex h-[50px]'>
          <div >
          <h4 className="mt-10 ml-[200px] text-center bg-primary h-22 px-2.5 flex items-center text-md bg-purple rounded-full w-24 text-primary ">SERVICES</h4>
          <h3 className='ml-[200px] mt-5 text-3xl leading-normal font-bold'><span>We are a </span> <span className='text-primary'>dedicated team of <br/>professionals</span> <span>passionate about<br/> advocating for individuals with<br/> disabilities.</span></h3>
