@@ -58,7 +58,7 @@ const About = () => {
         <div className='ml-20 '>
            <h4 className='text-darkGray font-semibold text-4xl'>Welcome to our </h4>
            <h1 className='text-primary text-7xl font-bold '><span>Disability Services <br/>Department</span></h1>
-           <p className='text-secondary text-base mt-7 tracking-wider'>I have been a member of NDIS services for three years when I started my <br/> Nursing career. After graduation from I worked at a hospital setting <br/>
+           <p className='text-secondary text-sm mt-7 '>I have been a member of NDIS services for three years when I started my <br/> Nursing career. After graduation from I worked at a hospital setting <br/>
            around the area as an Enrolled nurse. Not too long after, I realised me <br/>
            and my husband both had the right skills and mindset to start our own <br/>
            little gig. We put our heart and passions together to create this<br/>
@@ -66,7 +66,7 @@ const About = () => {
             establishment, we have been at the forefront of advocating for <br/>
             individuals with disabilities and working towards creating an inclusive <br/>
             society. </p>
-           <p className='text-secondary text-base mt-5 tracking-wider'>
+           <p className='text-secondary text-sm mt-5 '>
             Our department is dedicated to providing support, resources, community<br/>
             nursing, activities of daily living community participation and transport to<br/>
              ensure equal opportunities for individuals of all abilities. We are <br/>
