@@ -139,15 +139,15 @@ const About = () => {
          <div >
          <h4 className="mt-10 ml-[200px] text-center bg-primary h-22 px-2.5 flex items-center text-md bg-purple rounded-full w-24 text-primary ">SERVICES</h4>
          <h3 className='ml-[200px] mt-5 text-3xl leading-normal font-bold'><span>We are a </span> <span className='text-primary'>dedicated team of <br/>professionals</span> <span>passionate about<br/> advocating for individuals with<br/> disabilities.</span></h3>
-         <p className='ml-[200px] mt-5 mb-5 text-xl  text-button2 '>We are a dedicated team of professionals passionate about advocating for<br/> individuals with disabilities. Our staff members bring a wealth of expertise and<br/> experience in disability support services, ensuring that we provide the highest <br/>quality assistance to our community.</p>
+         <p className='ml-[200px] mt-5 mb-5 text-sm  text-button2 '>We are a dedicated team of professionals passionate about advocating for<br/> individuals with disabilities. Our staff members bring a wealth of expertise and<br/> experience in disability support services, ensuring that we provide the highest <br/>quality assistance to our community.</p>
          </div>
            <div className='ml-20 mt-20'><img className='' src={ceo}/></div>
            
          </div>
             <div className=' flex bg-textGray w-full h-[360px]'>
                <div>
-               <h1 className='font-bold text-4xl pt-20 ml-[200px] mb-10'> <span className='text-darkGray'>Contact Us </span> <span className='text-primary'>Today</span></h1>
-               <p className='ml-[200px] text-button2 text-xl '>We encourage you to reach out to us for more information, questions, <br/>or assistance. Our dedicated team is here to support you on your<br/> journey towards success and inclusion.</p>
+               <h1 className='font-bold text-3xl pt-20 ml-[200px] mb-10'> <span className='text-darkGray'>Contact Us </span> <span className='text-primary'>Today</span></h1>
+               <p className='ml-[200px] text-button2 text-sm'>We encourage you to reach out to us for more information, questions, <br/>or assistance. Our dedicated team is here to support you on your<br/> journey towards success and inclusion.</p>
                </div>
 
                <div>
