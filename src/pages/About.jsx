@@ -16,8 +16,8 @@ const About = () => {
       <div className='pt-[200px] w-full pb-0 text-white ml-[200px] justify-center '>
           <div className='flex '>
             <h1 className=''>
-            <span className='leading-1 text-white text-8xl font-bold font-[60px]'>The wise choice <br/>for independence</span> <br/>
-            <span className='leading-1 text-primary text-8xl font-bold font-[60px]'>SQC is the place<br/> for all</span>
+            <span className='leading-1 text-white text-7xl font-bold font-[60px]'>The wise choice <br/>for independence</span> <br/>
+            <span className='leading-1 text-primary text-7xl font-bold font-[60px]'>SQC is the place<br/> for all</span>
            </h1>
            <img 
            src={about} 
