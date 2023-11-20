@@ -7,7 +7,7 @@ import services5 from '../assets/images/services5.png'
 import logo from '../assets/images/headerLogo.png'
 const Services = () => {
   return (
-    <section className=' bg-secondary h-[1000vh]'>
+    <section className=' bg-secondary h-[100vh]'>
     
       <div className='pt-[150px] w-full pb-0 text-white ml-[100px] justify-center '>
         <div className='flex'>
