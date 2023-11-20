@@ -116,7 +116,7 @@ const Services = () => {
    </div>
    <div className=' flex bg-textGray w-full h-[360px]'>
                <div>
-               <h1 className='font-bold text-2xl pt-20 ml-[100px] mb-10'> <span className='text-darkGray'>Contact Us </span> <span className='text-primary'>Today</span></h1>
+               <h1 className='font-bold text-3xl pt-20 ml-[100px] mb-10'> <span className='text-darkGray'>Contact Us </span> <span className='text-primary'>Today</span></h1>
                <p className='ml-[100px] text-button2 text-md '>We encourage you to reach out to us for more information, questions, <br/>or assistance. Our dedicated team is here to support you on your<br/> journey towards success and inclusion.</p>
                </div>
 
