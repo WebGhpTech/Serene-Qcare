@@ -11,9 +11,9 @@ import logo from '../assets/images/headerLogo.png'
 
 const About = () => {
   return (
-    <section className=' bg-secondary h-[80vh]'>
+    <section className=' bg-secondary h-[100vh]'>
     
-      <div className='pt-[200px] w-full pb-0 text-white ml-[200px] justify-center '>
+      <div className='pt-[100px] w-full pb-0 text-white ml-[100px] justify-center '>
           <div className='flex '>
             <h1 className=''>
             <span className='leading-1 text-white text-7xl font-bold font-[60px]'>The wise choice <br/>for independence</span> <br/>
@@ -23,7 +23,7 @@ const About = () => {
            src={about} 
            width={584}
            height={382}
-           className=' ml-[200px] '
+           className=' ml-[100px] '
           alt='about'/>
           </div>  
    </div>
