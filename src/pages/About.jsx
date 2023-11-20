@@ -11,9 +11,9 @@ import logo from '../assets/images/headerLogo.png'
 
 const About = () => {
   return (
-    <section className=' bg-secondary h-[100vh]'>
+    <section className=' bg-secondary h-[80vh]'>
     
-      <div className='pt-[200px] w-full pb-10 text-white ml-[100px] justify-center '>
+      <div className='pt-[200px] w-full pb-0 text-white ml-[200px] justify-center '>
           <div className='flex '>
             <h1 className=''>
             <span className='leading-1 text-white text-7xl font-bold font-[60px]'>The wise choice <br/>for independence</span> <br/>
@@ -23,13 +23,13 @@ const About = () => {
            src={about} 
            width={584}
            height={382}
-           className=' ml-[50px] '
+           className=' ml-[200px] '
           alt='about'/>
           </div>  
    </div>
-<div className='pt-0 pb-0 bg-textGray '>
-   <div className=' ml-[50px]  flex xl:justify-wrap items-center max-xl:flex-col-reverse gap-5 max-container max-sm:mt-60 h-[796] '>
-     <div className="gap-5  md:ml-10  ">
+<div className='bg-textGray h-screen'>
+   <div className=' ml-[200px] mt-[80px] flex xl:justify-wrap items-center max-xl:flex-col-reverse gap-5 max-container max-sm:mt-60 h-[796px] '>
+     <div className="gap-5 mb-5 md:ml-10  ">
         <img
           src={who1}
           width={270}
@@ -56,9 +56,9 @@ const About = () => {
       <div className="flex">
         
         <div className='ml-20 '>
-           <h4 className='text-darkGray font-semibold text-3xl'>Welcome to our </h4>
-           <h1 className='text-primary text-4xl font-bold '><span>Disability Services <br/>Department</span></h1>
-           <p className='text-secondary text-sm mt-7 '>I have been a member of NDIS services for three years when I started my <br/> Nursing career. After graduation from I worked at a hospital setting <br/>
+           <h4 className='text-darkGray font-semibold text-4xl'>Welcome to our </h4>
+           <h1 className='text-primary text-7xl font-bold '><span>Disability Services <br/>Department</span></h1>
+           <p className='text-secondary text-base mt-7 tracking-wider'>I have been a member of NDIS services for three years when I started my <br/> Nursing career. After graduation from I worked at a hospital setting <br/>
            around the area as an Enrolled nurse. Not too long after, I realised me <br/>
            and my husband both had the right skills and mindset to start our own <br/>
            little gig. We put our heart and passions together to create this<br/>
@@ -66,7 +66,7 @@ const About = () => {
             establishment, we have been at the forefront of advocating for <br/>
             individuals with disabilities and working towards creating an inclusive <br/>
             society. </p>
-           <p className='text-secondary text-sm mt-5'>
+           <p className='text-secondary text-base mt-5 tracking-wider'>
             Our department is dedicated to providing support, resources, community<br/>
             nursing, activities of daily living community participation and transport to<br/>
              ensure equal opportunities for individuals of all abilities. We are <br/>
@@ -86,7 +86,7 @@ const About = () => {
       <h1 className='text-white text-4xl font-bold text-center pt-10'>Our Values</h1>
        
       </div>
-  
+ 
    <div className='gap-32 mt-10 items-center justify-center flex flex-wrap' >
    <div className="">
    <img 
@@ -131,10 +131,23 @@ const About = () => {
  </p>
      </div>
         </div>
-         <div className=' flex bg-textGray w-full h-[360px]'>
+        
+      
+      </div>
+      </div>
+        <div className=' flex h-[510px]'>
+         <div >
+         <h4 className="mt-10 ml-[200px] text-center bg-primary h-22 px-2.5 flex items-center text-md bg-purple rounded-full w-24 text-primary ">SERVICES</h4>
+         <h3 className='ml-[200px] mt-5 text-4xl leading-normal font-bold'><span>We are a </span> <span className='text-primary'>dedicated team of <br/>professionals</span> <span>passionate about<br/> advocating for individuals with<br/> disabilities.</span></h3>
+         <p className='ml-[200px] mt-5 mb-5 text-xl  text-button2 tracking-wide'>We are a dedicated team of professionals passionate about advocating for<br/> individuals with disabilities. Our staff members bring a wealth of expertise and<br/> experience in disability support services, ensuring that we provide the highest <br/>quality assistance to our community.</p>
+         </div>
+           <div className='ml-20 mt-20'><img className='' src={ceo}/></div>
+           
+         </div>
+            <div className=' flex bg-textGray w-full h-[360px]'>
                <div>
                <h1 className='font-bold text-4xl pt-20 ml-[200px] mb-10'> <span className='text-darkGray'>Contact Us </span> <span className='text-primary'>Today</span></h1>
-               <p className='ml-[200px] text-button2 text-xl '>We encourage you to reach out to us for more information, questions, <br/>or assistance. Our dedicated team is here to support you on your<br/> journey towards success and inclusion.</p>
+               <p className='ml-[200px] text-button2 text-xl tracking-wider'>We encourage you to reach out to us for more information, questions, <br/>or assistance. Our dedicated team is here to support you on your<br/> journey towards success and inclusion.</p>
                </div>
 
                <div>
@@ -142,19 +155,6 @@ const About = () => {
                </div>
             
             </div>
-      
-      </div>
-      </div>
-        <div className=' flex h-[376px]'>
-         <div >
-         <h4 className="mt-10 ml-[200px] text-center bg-primary h-22 px-2.5 flex items-center text-md bg-purple rounded-full w-24 text-primary ">SERVICES</h4>
-         <h3 className='ml-[200px] mt-5 text-3xl leading-normal font-bold'><span>We are a </span> <span className='text-primary'>dedicated team of <br/>professionals</span> <span>passionate about<br/> advocating for individuals with<br/> disabilities.</span></h3>
-         <p className='ml-[200px] mt-5 mb-5 text-xl  text-button2 '>We are a dedicated team of professionals passionate about advocating for<br/> individuals with disabilities. Our staff members bring a wealth of expertise and<br/> experience in disability support services, ensuring that we provide the highest <br/>quality assistance to our community.</p>
-         </div>
-           <div className='ml-20 mt-20'><img className='' src={ceo}/></div>
-           
-         </div>
-           
       
             <div id="footer" className="bg-secondary w-full "> 
             <div className="pt-20 w-full text-white font-normal h-[319px] text-center items-center justify-center max-container">
