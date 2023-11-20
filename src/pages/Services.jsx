@@ -7,7 +7,7 @@ import services5 from '../assets/images/services5.png'
 import logo from '../assets/images/headerLogo.png'
 const Services = () => {
   return (
-    <section className=' bg-secondary h-[80vh]'>
+    <section className=' bg-secondary h-[1000vh]'>
     
       <div className='pt-[150px] w-full pb-0 text-white ml-[100px] justify-center '>
         <div className='flex'>
@@ -116,8 +116,8 @@ const Services = () => {
    </div>
    <div className=' flex bg-textGray w-full h-[360px]'>
                <div>
-               <h1 className='font-bold text-4xl pt-20 ml-[200px] mb-10'> <span className='text-darkGray'>Contact Us </span> <span className='text-primary'>Today</span></h1>
-               <p className='ml-[200px] text-button2 text-xl tracking-wider'>We encourage you to reach out to us for more information, questions, <br/>or assistance. Our dedicated team is here to support you on your<br/> journey towards success and inclusion.</p>
+               <h1 className='font-bold text-4xl pt-20 ml-[100px] mb-10'> <span className='text-darkGray'>Contact Us </span> <span className='text-primary'>Today</span></h1>
+               <p className='ml-[100px] text-button2 text-md '>We encourage you to reach out to us for more information, questions, <br/>or assistance. Our dedicated team is here to support you on your<br/> journey towards success and inclusion.</p>
                </div>
 
                <div>
