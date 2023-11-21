@@ -41,7 +41,7 @@ const Hero = () => {
         <Button />
       </div>
 
-      <div className="w-full lg:w-1/2 relative flex flex-col justify-center items-center order-2">
+      <div className="w-full lg:w-1/2 relative flex flex-col justify-center items-center order-2 mr-[140px]">
         <img
           src={images[activeIndex]}
           className="md:rounded-2xl object-contain carousel-slide m-10"
