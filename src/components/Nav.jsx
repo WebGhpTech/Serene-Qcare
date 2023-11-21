@@ -50,7 +50,7 @@ const Nav = () => {
         </div>
 
         {/* Menu items for larger screens */}
-        <ul className="md:flex hidden justify-center items-center gap-7 ml-50  z-10">
+        <ul className="md:flex hidden justify-center items-center gap-7 mx-auto  z-10">
           {routes.map((route, index) => (
             <li key={index} className="font-inter leading-normal text-blue text-sm">
               <Link to={route.path}>{route.title}</Link>
