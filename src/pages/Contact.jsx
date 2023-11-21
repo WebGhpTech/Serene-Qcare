@@ -41,7 +41,7 @@ const Contact = () => {
                 </div>
                 
              </div>
-             <div className="ml-10 mr-[50px] h-[479px] w-[700px] mx-auto relative rounded-2xl bg-slate-50 box-border w-full flex-col items-start justify-start p-5 gap-[24px] text-left text-base text-slate-500 font-lg-bold border-[1px] border-solid border-slate-200">
+             <div className="ml-10 mr-[136px] h-[479px] w-[700px] mx-auto relative rounded-2xl bg-slate-50 box-border w-full flex-col items-start justify-start p-5 gap-[24px] text-left text-base text-slate-500 font-lg-bold border-[1px] border-solid border-slate-200">
              <div className="self-stretch flex flex-row items-start justify-start gap-[24px]">
                <div className=" relative tracking-[0.01em]">
                  <p className="[margin-block-start:0] [margin-block-end:5px] text-lg">
