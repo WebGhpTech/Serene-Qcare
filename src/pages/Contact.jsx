@@ -15,7 +15,7 @@ const Contact = () => {
             </div>
          </div>
          <div className="wrapper ml-[100px] mt-10 flex ">
-             <div className="ml-[100px] ">
+             <div className="ml-[50px] ">
                   <div className="mb-10">
                   <h4 className="mb-10 font-semibold text-2xl text-[#334155]">Drop us a line</h4>
                   <div>
@@ -41,7 +41,7 @@ const Contact = () => {
                 </div>
                 
              </div>
-             <div className="ml-10 mr-[136px] h-[479px] w-[700px] mx-auto relative rounded-2xl bg-slate-50 box-border w-full flex-col items-start justify-start p-5 gap-[24px] text-left text-base text-slate-500 font-lg-bold border-[1px] border-solid border-slate-200">
+             <div className="ml-10 mr-[50px] h-[479px] w-[700px] mx-auto relative rounded-2xl bg-slate-50 box-border w-full flex-col items-start justify-start p-5 gap-[24px] text-left text-base text-slate-500 font-lg-bold border-[1px] border-solid border-slate-200">
              <div className="self-stretch flex flex-row items-start justify-start gap-[24px]">
                <div className=" relative tracking-[0.01em]">
                  <p className="[margin-block-start:0] [margin-block-end:5px] text-lg">
@@ -251,14 +251,14 @@ const Contact = () => {
       <h1 className='text-3xl font-bold pt-[71px]'>Help Our Cause</h1>
       <p className=' text-md pb-5'>Your support and contributions will enable us to meet our goals and improve conditions. Your generous donation will fund our mission.</p>
       <button className='rounded bg-primary px-2 py-4 w-48'>Donate Now</button>
-      <img className="ml-[570px] pt-10"src={cards}/>
+      <img className="ml-[500px] pt-10"src={cards}/>
       
     </div>
     <div className="bg-secondary pt-20 w-full text-white font-normal h-[319px] text-center items-center justify-center ">
              <img
                 src={logo}
        
-                className="ml-[550px] items-center justify-center"
+                className="ml-[530px] items-center justify-center"
              ></img>
              <p className="mt-5 font-inter text-sm text-slate-gray " >6 Redwood street, Kingston, Queensland, 4114, Australia | 07 3416 6259</p>
              <p className="mt-5 font-inter text-sm text-slate-gray">© 2023 Serene QCare. All rights reserved.</p>
