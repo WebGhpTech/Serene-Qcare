@@ -15,7 +15,7 @@ const Contact = () => {
             </div>
          </div>
          <div className="wrapper ml-[50px] mt-10 flex ">
-             <div className="ml-[100px]">
+             <div className="ml-[50px]">
                   <div className="mb-10">
                   <h4 className="mb-10 font-semibold text-2xl text-[#334155]">Drop us a line</h4>
                   <div>
@@ -41,7 +41,7 @@ const Contact = () => {
                 </div>
                 
              </div>
-             <div className="ml-10 mr-[136px] h-[479px] w-[700px] mx-auto relative rounded-2xl bg-slate-50 box-border w-full flex-col items-start justify-start p-5 gap-[24px] text-left text-base text-slate-500 font-lg-bold border-[1px] border-solid border-slate-200">
+             <div className="ml-10 mr-[80px] h-[479px] w-[700px] mx-auto relative rounded-2xl bg-slate-50 box-border w-full flex-col items-start justify-start p-5 gap-[24px] text-left text-base text-slate-500 font-lg-bold border-[1px] border-solid border-slate-200">
              <div className="self-stretch flex flex-row items-start justify-start gap-[24px]">
                <div className=" relative tracking-[0.01em]">
                  <p className="[margin-block-start:0] [margin-block-end:5px] text-lg">
