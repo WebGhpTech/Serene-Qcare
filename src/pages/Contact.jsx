@@ -14,8 +14,8 @@ const Contact = () => {
                <br/>support you on your journey towards success and inclusion.</p>
             </div>
          </div>
-         <div className="wrapper ml-[100px] mt-10 flex ">
-             <div className="">
+         <div className="wrapper ml-[50px] mt-10 flex ">
+             <div className="ml-[100px]">
                   <div className="mb-10">
                   <h4 className="mb-10 font-semibold text-2xl text-[#334155]">Drop us a line</h4>
                   <div>
