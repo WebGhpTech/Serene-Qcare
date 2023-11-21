@@ -15,7 +15,7 @@ const Contact = () => {
             </div>
          </div>
          <div className="wrapper ml-[100px] mt-10 flex ">
-             <div className="ml-[50px] ">
+             <div className="">
                   <div className="mb-10">
                   <h4 className="mb-10 font-semibold text-2xl text-[#334155]">Drop us a line</h4>
                   <div>
