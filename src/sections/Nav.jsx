@@ -1,12 +1,9 @@
 import { useState } from 'react';
 import headerLogo from "../assets/images/headerLogo.png";
-import { navLinks, useNavigate } from "../constants";
+import { navLinks,  } from "../constants";
 
 const Nav = () => {
-  const navigate = useNavigate()
-  function goToReceive(){
-    navigate("/receive")
-  }
+  
   const [showMenu, setShowMenu] = useState(false);
 
   const toggleMenu = () => {
