@@ -6,4 +6,4 @@ import Contact from './Contact';
 import Receive from './Receive'
 
 
-export { Home, About, Team, Services, Contact, };
+export { Home, About, Team, Services, Contact, Receive};
