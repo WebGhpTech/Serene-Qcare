@@ -1,4 +1,4 @@
-import { Home, About,Services, Team,Contact ,Receive} from '../pages';
+import { Home, About, Services, Team, Contact , Receive} from '../pages';
 
 const routes = [
   {
@@ -34,7 +34,6 @@ const routes = [
    {
     path: '/contact',
     exact: true,
-     title: 'Contact Us',
     component: Receive,
   },
   
