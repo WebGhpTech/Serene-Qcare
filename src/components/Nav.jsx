@@ -2,13 +2,10 @@ import { useState } from 'react';
 import headerLogo from '../assets/images/headerLogo.png';
  {/*import { navLinks } from '../constants';*/}
 import { routes } from '../router';
-import { Link,useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Nav = () => {
-  const navigate = useNavigate()
-  function goToReceive(){
-    navigate("/receive")
-  }
+ 
   const [showMenu, setShowMenu] = useState(false);
 
   const toggleMenu = () => {
@@ -62,7 +59,7 @@ const Nav = () => {
           ))}
         </ul>
 
-        <button onClick={goToReceive} className="bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none text-white font-medium rounded py-3 px-4 bg-primary  mr-10 hidden lg:block z-10">
+        <button className="bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none text-white font-medium rounded py-3 px-4 bg-primary  mr-10 hidden lg:block z-10">
           Enquire Now
         </button>
       </nav>
