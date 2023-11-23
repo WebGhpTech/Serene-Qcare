@@ -18,13 +18,13 @@ const Services = () => {
                <h3><span className="text-white font-semibold text-2xl">Check out this great video</span></h3>
                
              </div>
-               <div className='w-1/2 ml-[50px]'>
+               <div className='w-1/2 ml-[150px]'>
                <ReactPlayer url='https://www.youtube.com/watch?v=qZOjPBJiBPg' />
                </div>
         </div>
  </div>
  <div className='pt-[150px] flex mb-10'>
-    <div className='ml-20'>
+    <div className='ml-20 pt-10'>
        <h2 className='text-3xl font-bold text-[#334155]'>Community Care</h2>
        <p className='text-left mt-5 text-button2'>Our support workers are compassionate and dedicated <br/>
        professionals who provide direct care and support to individuals <br/>
