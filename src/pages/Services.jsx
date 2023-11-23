@@ -18,7 +18,7 @@ const Services = () => {
                <h3><span className="text-white font-semibold text-2xl">Check out this great video</span></h3>
                
              </div>
-               <div className='ml-[50px]'>
+               <div className='w-1/2 ml-[50px]'>
                <ReactPlayer url='https://www.youtube.com/watch?v=qZOjPBJiBPg' />
                </div>
         </div>
