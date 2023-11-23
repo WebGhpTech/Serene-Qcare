@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import headerLogo from '../assets/images/headerLogo.png';
-import { navLinks } from '../constants';
+ {/*import { navLinks } from '../constants';*/}
 import { routes } from '../router';
 import { Link,useNavigate } from 'react-router-dom';
 
