@@ -1,10 +1,11 @@
-import video from '../assets/images/serviceshero.png'
+import ReactPlayer from 'react-player'
 import services1 from '../assets/images/services1.png'
 import services2 from '../assets/images/services2.png'
 import services3 from '../assets/images/services3.png'    
 import services4 from '../assets/images/services4.png'
 import services5 from '../assets/images/services5.png'   
 import logo from '../assets/images/headerLogo.png'
+
 const Services = () => {
   return (
     <section className=' bg-secondary h-[100vh]'>
@@ -18,11 +19,7 @@ const Services = () => {
                
              </div>
                <div className='ml-[50px]'>
-               <img
-               src={video} 
-               alt="video"
-               className='ml-[100px] my-auto bb-[50px]'
-             ></img>
+               <ReactPlayer url='https://www.youtube.com/watch?v=qZOjPBJiBPg' />
                </div>
         </div>
  </div>
