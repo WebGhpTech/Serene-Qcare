@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
-import { Home, About, Services, Team, Contact } from '../pages';
+import { Home, About, Services, Team, Contact, Receive } from '../pages';
 
 const NavigationRoute = () => {
   return (
@@ -9,6 +9,7 @@ const NavigationRoute = () => {
       <Route path="/services" element={<Services />} />
       <Route path="/team" element={<Team />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/receive" element={<Receive />} />
       
     </Routes>
   );
