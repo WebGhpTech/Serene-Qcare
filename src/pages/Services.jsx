@@ -8,7 +8,7 @@ import logo from '../assets/images/headerLogo.png'
 
 const Services = () => {
   return (
-    <section className=' bg-secondary h-[100vh]'>
+    <section className=' bg-secondary h-[90vh]'>
     
       <div className='pt-[150px] w-full pb-0 text-white ml-[100px] justify-center '>
         <div className='flex'>
