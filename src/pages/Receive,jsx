@@ -2,7 +2,7 @@ const Receive = () => {
   return (
     <section className="bg-secondary h-[100vh]">
         <div className="pt-[200px] w-full">
-        <h1>At Serene</h1>
+        <h1>Receive</h1>
         </div>
     
     </section>
