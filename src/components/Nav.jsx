@@ -5,10 +5,10 @@ import { routes } from '../router';
 import { Link,useNavigate } from 'react-router-dom';
 
 const Nav = () => {
-{/*  const navigate = useNavigate()
+  const navigate = useNavigate()
   function goToReceive(){
     navigate("/receive")
-  }*/}
+  }
   const [showMenu, setShowMenu] = useState(false);
 
   const toggleMenu = () => {
