@@ -31,6 +31,11 @@ const routes = [
     title: 'Contact Us',
     component: Contact, //replace with Contact component when available
   },
+  {
+    path: '/receive',
+    exact: true,
+    component: Receive, 
+  },
 ];
 
 export { routes };
