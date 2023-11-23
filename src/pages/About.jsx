@@ -11,7 +11,7 @@ import logo from '../assets/images/headerLogo.png'
 
 const About = () => {
   return (
-    <section className=' bg-secondary h-[100vh]'>
+    <section className=' bg-secondary h-[110vh]'>
     
       <div className='pt-[200px] w-full pb-0 text-white ml-[100px] justify-center '>
           <div className='flex '>
