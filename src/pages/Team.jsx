@@ -10,7 +10,7 @@ const Team = () => {
     <section className="bg-secondary h-[688px]">
          <div className="pt-[200px] pb-0 text-white ml-[100px] justify-center" >
             <div className="ml-[30px] flex flex-1 w-full">
-              <div className="w-1/2">
+              <div className="max-lg:w-1/2 ">
               <h1 className="text-4xl font-bold"><span className="text-primary">Professional <br/>Growth</span></h1>
               <h5 className="mt-5 text-white text-lg font-medium">Professional Growth and <br/>
               Development We are committed <br/>
