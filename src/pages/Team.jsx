@@ -18,8 +18,8 @@ const Team = () => {
               development of our employees.</h5>
               </div>
                
-               <div className="w-1/2 text-center mr-[130px]">
-                 <img src={team} alt="team"/>
+               <div className="w-1/2 text-center mr-[50px]">
+                 <img src={team} alt="team" className="rounded-xl"/>
                </div>
             </div>
            
