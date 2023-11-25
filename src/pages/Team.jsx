@@ -53,8 +53,8 @@ const Team = () => {
     </section>
     <section>
       <div className='flex flex-col-2 justify-center items-center gap-[48px] mb-[48px] pt-[80px]'>
-         <div className='border-solid border-1 border-purple rounded-sm  '>
-            <img src={team1} alt="team1" className="rounded-sm"/>
+         <div className='border-solid border-2 border-purple rounded-sm  '>
+            <img src={team1} alt="team1" className="rounded-md"/>
             <h5 className="pl-5 text-xl text-[#374151] font-semibold mt-5">Support Worker</h5>
             <p className=" pb-5 pl-5 text-base text-button2 mt-5">Making a Difference Everyday Support workers play a vital role in<br/>
              providing direct care and support to individuals with disabilities. As <br/> 
@@ -66,8 +66,8 @@ const Team = () => {
               environment that celebrates diversity.</p>
 
          </div>
-         <div className='mt-8 border-solid border-1 border-purple rounded-md'>
-         <img src={team2} alt="team2" className="rounded-sm"/>
+         <div className='mt-8 border-solid border-2 border-purple rounded-md'>
+         <img src={team2} alt="team2" className="rounded-md"/>
          <h5 className="pl-5 text-xl text-[#374151] font-semibold mt-5">Join Our Team: Exciting Opportunities Await -<br/> 
          Support Workers, Nurses, and Support Coordinators<br/>
           Wanted!</h5>
@@ -82,8 +82,8 @@ const Team = () => {
          </div>
       </div>
       <div className='flex flex-col-2 justify-center items-center gap-[48px]'>
-         <div className='border-solid border-1 border-purple rounded-md '>
-            <img src={team3} alt="team3" className="rounded-sm"/>
+         <div className='border-solid border-2 border-purple rounded-md '>
+            <img src={team3} alt="team3" className="rounded-md"/>
             <h5 className=" pl-5 text-xl text-[#374151] font-semibold mt-5">EN / RN</h5>
             <p className="pb-5 pl-5 text-base text-button2 mt-5">Enhancing Healthcare for Individuals with Disabilities As a nurse<br/>
              within our organization, you will bring your expertise and passion <br/>
@@ -96,8 +96,8 @@ const Team = () => {
               prioritizes the physical and mental well-being of those we serve.</p>
 
          </div>
-         <div className='border-solid border-1 border-purple rounded-md '>
-         <img src={team4} alt="team4" className="rounded-sm"/>
+         <div className='border-solid border-2 border-purple rounded-md '>
+         <img src={team4} alt="team4" className="rounded-md"/>
          <h5 className="pl-5 text-xl text-[#374151] font-semibold mt-5">Support Coordinator</h5>
             <p className="pb-5 pl-5 text-base text-button2 mt-5">Guiding the Path to Empowerment Support coordinators play a<br/>
              crucial role in assisting individuals with disabilities in accessing <br/>
