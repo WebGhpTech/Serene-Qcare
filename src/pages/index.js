@@ -7,4 +7,4 @@ import Receive from './Receive';
 
 
 
-export { Home, About, Team, Services, Contact};
+export { Home, About,Receive, Team, Services, Contact};
