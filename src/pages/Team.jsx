@@ -11,8 +11,8 @@ const Team = () => {
          <div className="pt-[200px] w-full pb-0 text-white ml-[100px] justify-center" >
             <div className="ml-[30px] flex flex-1 w-full">
               <div className="w-1/2">
-              <h1 className="text-7xl font-bold"><span className="text-primary">Professional <br/>Growth</span></h1>
-              <h5 className="mt-5 text-white text-2xl font-medium">Professional Growth and <br/>
+              <h1 className="text-3xl font-bold"><span className="text-primary">Professional <br/>Growth</span></h1>
+              <h5 className="mt-5 text-white text-xl font-medium">Professional Growth and <br/>
               Development We are committed <br/>
               to the professional growth and <br/>
               development of our employees.</h5>
