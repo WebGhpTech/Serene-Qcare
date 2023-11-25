@@ -18,7 +18,7 @@ const Team = () => {
               development of our employees.</h5>
               </div>
                
-               <div className="w-full lg:w-1/2 relative flex flex-col justify-center items-center order-2 ml-[200ppx]">
+               <div className="w-full lg:w-1/2 relative flex flex-col justify-center items-center order-2 ml-[200px]">
                  <img src={team} alt="team" className="rounded-xl "/>
                </div>
             </div>
